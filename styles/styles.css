@@ -29,6 +29,7 @@ nav {
 a {
     text-decoration: none;
     color: white;
+    font-size: 1.2em;
 }
 a:hover {
     text-decoration: underline;
@@ -86,4 +87,13 @@ footer p {
 }
 .center {
     text-align: center;
+}
+.hidden {
+    position: relative;
+    left: -10000px;
+    top: auto;
+}
+.hidden:focus {
+    left: 0;
+    color:#ecb722;
 }
